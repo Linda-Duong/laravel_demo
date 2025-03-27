@@ -31,7 +31,9 @@
                                     </div>
                                 </div>
                                 <div class="d-grid mx-auto">
-                                    <button type="submit" class="btn btn-dark btn-block">Signin</button>
+                                        <!--Login with gg-->
+                                    <a href="{{route('auth.google') }}" class=" text-center  ">Login with Google</a>
+                                    <button type="submit" class="btn btn-dark btn-block">Sign in</button>
                                 </div>
                             </form>
                         </div>

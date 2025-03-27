@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CrudUserController;
+use App\Http\Controllers\SocialiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,13 @@ use App\Http\Controllers\CrudUserController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::controller(SocialiteController::class)->group(function () {
+    Route::get('auth/google','googleLogin')->name('auth.google');
+Route::get('auth/google-callback','googleAuthenication')->name('auth.google-callback');
+});
+
+
+
 
 Route::get('dashboard', [CrudUserController::class, 'dashboard']);
 
