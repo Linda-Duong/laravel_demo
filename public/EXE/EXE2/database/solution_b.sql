@@ -1,3 +1,4 @@
+ use bke;
 1. Liệt kê các hóa đơn của khách hàng, thông tin hiển thị gồm: mã user, tên user, mã hóa đơn
 SELECT users.user_id, users.user_name, orders.order_id 
 FROM users 
