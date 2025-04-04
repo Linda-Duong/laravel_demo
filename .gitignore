@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 364abb6 (commit)
+=======
+>>>>>>> 8415e87ca43b642e7af2db97d314301deb7f387e
 # Build and Release Folders
 bin-debug/
 bin-release/
@@ -20,6 +23,7 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -48,3 +52,5 @@ yarn-error.log
 /.zed
 >>>>>>> d1ea1ab (commit fir)
 >>>>>>> 364abb6 (commit)
+=======
+>>>>>>> 8415e87ca43b642e7af2db97d314301deb7f387e

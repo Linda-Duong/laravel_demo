@@ -14,7 +14,7 @@ class HtmlController extends Controller
     }
     public function list()
     {
-        return file_get_contents(public_path('html/list.html'));
+        return file_get_contents(public_path('html/list1.html'));
     }
     public function update()
     {
